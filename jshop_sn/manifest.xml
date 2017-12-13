@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD component 1.0//EN" "http://joomla.org/xml/dtd/1.5/component-install.dtd">
+<extension type="component" version="3.1"  method="upgrade">
+  <name>jshop_sn</name>
+  <creationDate>2017</creationDate>
+  <author>sn</author>
+  <authorEmail></authorEmail>
+  <authorUrl></authorUrl>
+  <copyright></copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1.0</version>
+  <description><![CDATA[<body link="#0170CA" alink="#008080" vlink="#0170CA">پلاگین پرداخت sn براي کامپوننت Joomshopping]]></description>
+  <scriptfile>script.php</scriptfile>
+  <uninstallfile>install/uninstall.package.php</uninstallfile>
+  <install>
+    <sql>
+      <file driver="mysql" charset="utf8">install/sql/install.sql</file>
+    </sql>
+  </install> 
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">install/sql/uninstall.sql</file>
+    </sql>
+  </uninstall>   
+  <administration>
+    <files folder="admin">
+	  <folder>files</folder>
+      <folder>install</folder>	  
+    </files>
+  </administration>
+</extension>
