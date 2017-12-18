@@ -1,3 +1,0 @@
-DELETE FROM `#__jshopping_payment_method` WHERE `payment_code` = 'sn';
-INSERT INTO `#__jshopping_payment_method` (`payment_id`, `payment_code`, `payment_class`, `payment_publish`, `payment_ordering`, `payment_params`, `payment_type`, `price`, `price_type`, `tax_id`, `image`, `show_descr_in_email`, `name_en-GB`, `description_en-GB`, `name_de-DE`, `description_de-DE`, `name_fa-IR`, `description_fa-IR`) VALUES
-(NULL, 'sn', 'pm_sn', 1, 1, 'MerchantCode=0\ntransaction_end_status=2\ntransaction_pending_status=1\ntransaction_failed_status=1\ncheckdatareturn=1\n', 2, 0, 0, 1, '', 0, 'sn', '', 'sn', '', 'sn', '');
